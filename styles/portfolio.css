@@ -21,7 +21,9 @@ nav{
 .text-primary{
     color:#FD6E0A;
 }
-
+.text-center{
+    text-align: center;
+}
 .open-sans-normal{
   font-family: "Open Sans", serif;
   font-optical-sizing: auto;
@@ -95,12 +97,16 @@ main{
     max-width: 1140px;
     margin: 0 auto;
 }
+main section{
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
 /* about style */
 .about{
     border-radius: 10px;
     padding: 130px 150px;
     text-align: center;
-    margin-top: 130px;
+    
 }
 .item-description{
     font-weight: 600;
@@ -109,4 +115,20 @@ main{
 .about-items{
     display: flex;
     justify-content: space-around;
+}
+
+/* what-i-do-styles */
+.skills-container{
+    display: flex;
+    gap: 24px;
+}
+.skill{
+    padding:27px 33px 27px ;
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06) ;
+}
+.section-description{
+    line-height: 30px;
+    padding: 0px 115px 50px;
+    justify-content: center;
 }
